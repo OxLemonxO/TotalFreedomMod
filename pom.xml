@@ -59,10 +59,10 @@
 
         <dependency>
             <groupId>org.spigotmc</groupId>
-            <artifactId>spigot</artifactId>
-            <version>1.10</version>
+            <artifactId>spigot-server</artifactId>
+            <version>1.12</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/lib/Spigot-1.10.jar</systemPath>
+            <systemPath>${project.basedir}/lib/Spigot-1.12.jar</systemPath>
         </dependency>
 
         <dependency>
@@ -95,6 +95,14 @@
             <version>2.0-TF</version>
             <scope>system</scope>
             <systemPath>${project.basedir}/lib/TF-Essentials-2.1.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>me.libaryaddict.disguise</groupId>
+            <artifactId>LibsDisguises</artifactId>
+            <version>9.0.9</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/lib/LibsDisguises-9.0.9.jar</systemPath>
         </dependency>
     </dependencies>
 
